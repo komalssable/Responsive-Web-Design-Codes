@@ -1,0 +1,30 @@
+#navbar {
+    position:fixed;
+    background-color:#e0ebeb;
+    border-bottom: 2px solid;
+    z-index: 1;
+     top: 0;
+      padding: 0;
+      margin: 0;
+  }
+  #main-doc{
+    margin-left : 172px;
+    background-color:#ffffe6;
+    position: relative;
+  }
+  #logo{
+    width:150px;
+    height:100px;
+    border-radius: 20px;
+  }
+  code{
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+  
+  @media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    #navbar ul {
+      border: 1px solid;
+      height: 207px;
+    }
+  }

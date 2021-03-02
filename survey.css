@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    background-color:#000332;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhUXeEoogNfuy11wiou5YW7U4D_C8x4c4kgQ&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header{
+    background-color:white
+  }
+  
+  h1 {
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  
+  p {
+    font-size: 1.125rem;
+  }
+  
+  h1,p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  input {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  .container {
+    background-color:pink;
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+  }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  form {
+    padding: 25px 0.625px;
+    border-radius: 2px;
+  }
+  
+  @media (min-width: 480px) {
+    form {
+      padding: 25px;
+    }
+  }
+  button {
+    border: none;
+  }

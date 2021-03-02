@@ -1,0 +1,133 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main class="main">
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Employee Survey Form</h1>
+    <p id="description" class="description text-center">
+      Please Enter Valid Details 
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+      <div class="form-group">
+      <label id="Institute-label" for="Institute">Institute</label>
+      <input
+        type="text"
+        name="institute"
+        id="institute"
+        class="form-control"
+        placeholder="Enter your Institute"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <p>Gender</p>
+      <label>
+        <input
+          name="gender"
+          value="male"
+          type="radio"
+          class="input-radio"
+          checked
+        />Male</label
+      >
+      <label>
+        <input
+          name="gender"
+          value="Female"
+          type="radio"
+          class="input-radio"
+        />Female</label
+      >
+
+      <label
+        ><input
+          name="gender"
+          value="Other"
+          type="radio"
+          class="input-radio"
+        />Other</label
+      >
+    </div>
+    
+   <div class="form-group">
+      <label id="number-label" for="number">number</label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        class="form-control"
+        placeholder="Phone No."      min="1" max="10"
+        required
+      />
+                                                           </div>
+    
+      <div class="form-group">
+      <p>Your Current Role</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option value="student">Student</option>
+        <option value="job">Intern</option>
+        <option value="learner">Full Time</option>
+        <option value="other">Other</option>
+      </select>
+    </div>  
+    <label><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />Front-end Projects</label>
+      <label>
+        <input
+          name="prefer"
+          value="back-end-projects"
+          type="checkbox"
+          class="input-checkbox"/>Back-end Projects</label>
+      <div class="form-group">
+      <p>
+        What is your favourite Technology?
+      </p>
+      <select id="tech" name="tech" class="form-control" required>
+        
+        <option value="Java">Java</option>
+        <option value="React">React</option>
+        <option value="Asp.net">Asp.net</option>
+        <option value="Cloud">Cloud</option>
+      </select>
+    </div>  
+     <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter here"></textarea>
+    </div>
+     <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+                                                             </form>
+                                                             </main>
